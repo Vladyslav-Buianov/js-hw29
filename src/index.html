@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <div class="container" id="contactsApp">
+      <h1>Contacts</h1>
+      <form id="contactsForm">
+        <input
+          type="text"
+          id="contactNameInput"
+          name="contactName"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="text"
+          id="contactSurnameInput"
+          placeholder="Surname"
+          name="contactSurname"
+          required
+        />
+        <input
+          type="tel"
+          id="contactNumberInput"
+          placeholder="Number"
+          name="contactNumber"
+          required
+        />
+        <input
+          type="email"
+          id="contactEmailInput"
+          placeholder="Email"
+          name="contactEmail"
+          required
+        />
+        <button type="submit" id="addContactBtn">Додати</button>
+      </form>
+      <ul id="contactsList"></ul>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
