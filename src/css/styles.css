@@ -91,12 +91,6 @@ ul li:hover {
   background-color: #f1f5f9;
 }
 
-/* Suggested HTML structure inside JS for contact details:
-   <div class="contact-info">
-     <div class="contact-name">Name Surname</div>
-     <div class="contact-details">Phone • Email</div>
-   </div>
-*/
 .contacts__item {
   display: flex;
   flex-direction: column;
